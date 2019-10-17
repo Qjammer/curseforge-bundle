@@ -1,0 +1,28 @@
+{
+    "name": "vetra/curseforge-bundle",
+    "type": "symfony-bundle",
+    "description": "CurseForge API integration in Symfony",
+    "keywords": ["curse","forge"],
+    "homepage": "https://github.com/Qjammer/curseforge-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramiro Balado",
+            "email": "baladoramiro@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Alejandro Hernández",
+            "email": "kuroisshiro@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vetra\\CurseForge": ""
+        }
+    }
+}
