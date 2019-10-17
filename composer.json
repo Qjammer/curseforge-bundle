@@ -1,7 +1,7 @@
 {
     "name": "vetra/curseforge-bundle",
     "type": "symfony-bundle",
-    "description": "CurseForge API integration in Symfony",
+    "description": "CurseForge API integration in Symfony 4.3",
     "keywords": ["curse","forge"],
     "homepage": "https://github.com/Qjammer/curseforge-bundle",
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vetra\\CurseForge": ""
+            "Vetra\\CurseForge\\": ""
         }
     }
 }
